@@ -39,8 +39,10 @@ body{
     margin-bottom: 169px;
 }
 .watch-button:hover{
+    
     transform: scale(1.5);
-    transition: transform .5s ease-in-out;
+    transition: transform .4s ease-in-out 
+    
 }
 .watch-button>a{
     text-decoration: none;
@@ -88,4 +90,57 @@ margin-top: 16px;
     color: #6C6C6C;
     font-size: 16px;
     
+}
+.extra-options{
+    margin-top: 90px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.extra-options > a{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    color: white;
+    border: 2px white solid;
+    padding: 10px 40px;
+    background-color:#2D25A0;
+}
+
+/* ------------------footer--------------------- */
+footer{
+
+    display: flex   ;
+    flex-direction: column;
+    align-items: center;
+
+}
+.logo{
+    
+}
+.logo > img{
+    Width:483.87px;
+    height: 110px;
+    margin-bottom: 20px;
+}
+.icons > i{
+    font-size: 32px;
+    background-color: #969BAB;
+    
+}
+.icons{
+width: 170px;
+height: 32px;
+display: flex;
+justify-content: space-around;
+
+}
+footer>p{
+    font: weight 400px;
+    margin-top: 20px;
+    margin-bottom: 63px;
 }
